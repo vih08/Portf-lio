@@ -1,9 +1,9 @@
-*{
+* {
     margin: 0;
-    padding: 0;
+    padding: 0 ;
 }
 
-header{
+header {
     display: flex;
     background-color: rgb(176, 145, 206);
     padding: 10px 70px;
@@ -14,45 +14,65 @@ header ul {
     display: flex;
     gap: 40px;
 }
-header li{
+
+header li {
     list-style: none;
 }
 
 section {
     padding: 20px 70px;
 }
+
 .section {
     padding: 20px 70px;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-.direito img{
+
+.direito img {
     width: 11vw;
     border-radius: 11px;
-    box-shadow: 20px 20px 20px rgba(0,0,0,0.3);
+    box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.3);
 }
 
-#home{
+#home {
     background-color: rgb(176, 145, 206);
 }
-#sobre, #projetos{
+
+#sobre, #projetos  {
     padding: 20px 70px;
 }
-.meio{
+
+.meio {
     text-align: center;
-    background-color:  rgb(176, 145, 206);
+    background-color: rgb(176, 145, 206);
     padding: 70px;
     border-radius: 40px;
 }
-li{
+
+li {
     list-style: none;
 }
-.projeto{
-    background-color:rgb(176, 145, 206); 
-    padding: 10px ;
+
+.projeto, .projeto2, .projeto3, .lista2 {
+    background-color: rgb(176, 145, 206); 
+    padding: 10px;
     display: flex;
     flex-direction: column;
     gap: 15px;
-    width: 25%;
+    width: 48%; 
+}
+
+.lista, .lista2 {
+      display: flex;
+}
+.duas-colunas {
+    justify-content: space-between;
+    gap: 20px; 
+    padding: 20px 70px;
+}
+
+.projeto, .projeto2, .projeto3, .lista2 {
+    box-sizing: border-box;
 }
